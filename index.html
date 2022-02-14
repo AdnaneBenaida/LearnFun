@@ -1,0 +1,283 @@
+<html>
+
+<head>
+    <title>Learn Fun!-The Fun Way To Learning English!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="keywords" content="Adnane,Benaida,fsr,english,anglais,learn,fun,learnfun">
+    <meta content="BENAIDA" name="author">
+    <style type="text/css">
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .container {
+            width: auto;
+            background: #fff;
+            padding: 20px 60px 30px 40px;
+        }
+        
+        .container .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .container .content .left-side {
+            width: 25%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            position: relative;
+        }
+        
+        .content .left-side::before {
+            content: '';
+            position: absolute;
+            height: 70%;
+            width: 2px;
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #afafb6;
+        }
+        
+        .content .left-side .details {
+            margin: 14px;
+            text-align: center;
+        }
+        
+        .content .left-side .details i {
+            font-size: 30px;
+            color: #3e2093;
+            margin-bottom: 10px;
+        }
+        
+        .content .left-side .details .topic {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .content .left-side .details .text-one,
+        .content .left-side .details .text-two {
+            font-size: 14px;
+            color: #afafb6;
+        }
+        
+        .container .content .right-side {
+            width: 75%;
+            margin-left: 75px;
+        }
+        
+        .content .right-side .topic-text {
+            font-size: 23px;
+            font-weight: 600;
+            color: #3e2093;
+        }
+        
+        .right-side .input-box {
+            height: 50px;
+            width: 100%;
+            margin: 12px 0;
+        }
+        
+        .right-side .input-box input,
+        .right-side .input-box textarea {
+            height: 100%;
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: #F0F1F8;
+            border-radius: 6px;
+            padding: 0 15px;
+            resize: none;
+        }
+        
+        .right-side .message-box {
+            min-height: 110px;
+        }
+        
+        .right-side .input-box textarea {
+            padding-top: 6px;
+        }
+        
+        .right-side .button {
+            display: inline-block;
+            margin-top: 12px;
+        }
+        
+        .right-side .button input[type="button"] {
+            color: #fff;
+            font-size: 18px;
+            outline: none;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            background: #3e2093;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .button input[type="button"]:hover {
+            background: #5029bc;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Learn English!</h1>
+            <p>Join Millions Around The World And Start Talking The N°1 Language In The World!<br></p>
+            <div class="banner-btn">
+                <a href="#Why"><span></span>Find Out</a>
+                <a href="course.html"><span></span>Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#Why">WHY ENGLISH?</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="quiz.html">QUIZZES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn" onclick="
+    var menuBtn = document.getElementById('menuBtn')
+        var sideNav = document.getElementById('sideNav')
+        var menu = document.getElementById('menu')
+
+            if (sideNav.style.right == '-250px') {
+                sideNav.style.right = '0';
+            } else {
+                sideNav.style.right = '-250px';
+            }
+    
+    ">
+        <img src="images/menu.png" id="menu">
+    </div>
+    <!--Why English?-->
+    <section id="Why">
+        <div class="title-text">
+            <p>WHY ENGLISH?</p>
+            <h1>Pourquoi Apprendre L'Anglais? </h1>
+        </div>
+        <div class="why-box">
+            <div class="why">
+                <h1>Universal!</h1>
+                <div class="why-desc">
+                    <div class="why-text">
+                        <p>Que ça soit pour vos études,carrières,ou vie de tout les jours,l'anglais est devenu une nécessité!Rejoingnez des milliers autour du monde et apprenez à parler la langue la plus utilisée au monde!</p>
+                    </div>
+                </div>
+                <h1>Socializing!</h1>
+                <div class="why-desc">
+                    <div class="why-text">
+                        <p>La langue anglaise est étudiée dans de très nombreux pays et c’est également la langue du commerce par excellence : de quoi s'offrir une immersion totale lors d'un voyage à l'étranger.</p>
+                    </div>
+                </div>
+                <h1>Career!</h1>
+                <div class="why-desc">
+                    <div class="why-text">
+                        <p>Apprendre une langue telle que l'anglais permet de prétendre à un stage (internship) à l’étranger et trouver du travail, ce qui marquera peut-être le début d’une belle carrière en dehors de nos frontières !</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="why-img">
+                <img src="images/globe.jpg">
+            </div>
+        </div>
+    </section>
+    <!--About Us-->
+    <section id="About">
+        <div class="title-text">
+            <p>About Us</p>
+            <h1>Qui sommes nous? </h1>
+        </div>
+        <div class="why-box">
+            <div class="why">
+                <h1>Je suis Adnane Benaida</h1>
+                <div class="why-desc">
+                    <div class="why-text">
+                        <p>Je suis Adnane Benaida,étudiant en 2eme année license fondamentale à la faculté des sciences rabat. J'ai toujours été intéressé par la langue anglaise et reconnu son importance pour le progres de l'individu de nos jours.Alors,J'ai
+                            decidé d'utiliser mes apprentissages lors de ma formation pour créer "Learn Fun!",un site educatif dédié à la langue anglaise.Le site est principalement en anglais car j'estime que seul un contact continu avec la langue aide
+                            à bien l'apprendre. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="why-img">
+                <img src="images/fsr.png">
+            </div>
+        </div>
+    </section>
+    <!--Contact Us-->
+    <section id="contact">
+
+        <div class="container">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">4 Avenue Ibn Batouta BP 1014 RP, RABAT</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+212 689 356 647</div>
+                        <div class="text-two">+212 634 345 678</div>
+                    </div>
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">adnane.benaida@um5r.ac.ma</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Send us a message</div>
+                    <p>Nous aimerons avoir votre avis ou toute suggestion à propos de notre site web.Contacter nous ici:</p>
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter your email">
+                        </div>
+                        <div class="input-box message-box">
+                            <textarea placeholder="Enter your message" width="70%" height="30%"></textarea>
+
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Send Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
